@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Dota/static/css/main.f37fedf3.css",
+    "main.js": "/Dota/static/js/main.87a10c51.js",
+    "static/media/steam.png": "/Dota/static/media/steam.7ac252423d1aecb3f677.png",
+    "index.html": "/Dota/index.html",
+    "main.f37fedf3.css.map": "/Dota/static/css/main.f37fedf3.css.map",
+    "main.87a10c51.js.map": "/Dota/static/js/main.87a10c51.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f37fedf3.css",
+    "static/js/main.87a10c51.js"
+  ]
+}

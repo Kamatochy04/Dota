@@ -1,0 +1,55 @@
+@import "../../../style/style.scss";
+
+.header{
+    background: #242424d2;
+    .logo{
+        text-transform: uppercase;
+        height: 100%;
+        background: rgb(241, 0, 0);
+        color: #ffffffe5;
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    &__container{
+        display: flex;
+        align-items: center;
+        height: 30px;
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+        color: #fff;
+        margin-left: 20px;
+        height: 100%;
+
+    }
+    &__item{
+        padding: 0 10px;
+        height: 100%;
+        a{
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+    }
+    &__item:hover{
+        background-color: rgba(255, 255, 255, 0.192);
+        transition: all .5s;
+    }
+    &__sign-in{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-left: auto;
+        margin-right: 30px;
+        img{
+            height: 17px;
+        }
+    }
+}
+
+.bg{
+    background: #363636d2;
+}

@@ -1,0 +1,80 @@
+@import "../../style/variables.scss";
+
+.winni{
+    &__block{
+        background: $second-color;
+        padding: 10px 5px;
+    }
+    &__list{
+        &-item{
+            padding: 5px;
+        }
+        &-descr{
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            img{
+                width: 35%;
+                object-fit: cover;
+            }
+            p{
+                color: green;
+            }
+        }
+        &-played{
+            display: flex;
+            flex-direction: column;
+            padding-right: 20px; 
+            &::after{
+                content: "";
+                width: 100%;
+                height: 3px;
+                background: red;
+            }
+        }
+        &-pick{
+            display: flex;
+            flex-direction: column;
+            padding-right: 20px; 
+            &::after{
+                content: "";
+                width: 100%;
+                height: 3px;
+                background: red;
+            }
+        }
+        &-win{
+            display: flex;
+            flex-direction: column;
+            padding-right: 20px; 
+            &::after{
+                content: "";
+                width: 64%;
+                height: 3px;
+                background: green;
+            }
+        }
+        &-kda{
+            display: flex;
+            flex-direction: column;
+            padding-right: 20px; 
+            &::after{
+                content: "";
+                width: 30%;
+                height: 3px;
+                background: orange;
+            }
+        }
+    }
+   
+}
+.bold{
+    background: #222a33;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+    align-items: center;
+
+}
